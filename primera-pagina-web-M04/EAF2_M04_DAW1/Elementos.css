@@ -1,0 +1,270 @@
+*{
+    
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+body{
+    background: lightgrey;
+}
+.simulacion_logo{
+    width: 20px;
+    height: 18px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+nav.nav {
+    border:1px solid black;
+    padding: 1px;
+    text-align: left;
+    list-style-type: 30px;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+nav ul a{
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(179, 128, 95);
+    
+    cursor:pointer;
+}
+.navegacion_submenu{
+    list-style: none;
+    float: center;
+    padding-left: 0%;
+}
+
+nav ul a:hover{
+
+   background-color: rgb(73, 84, 87);
+   color:rgb(243, 243, 243);
+   cursor: pointer;
+
+}
+main{
+    
+}
+
+.contact a{
+    text-align: left;
+    margin-left: 2px;
+    margin-right: 9px;
+    text-decoration: none;
+    
+}
+
+section.contact{
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid black;
+    background-color: rgb(243, 243, 243);
+    color :rgb(21, 95, 114);
+    
+}
+
+h3{
+    padding: 5px;
+    background-color: #004e63;
+    margin-left: 0px;
+    margin-right: 0px;
+    color : rgb(241, 241, 241);
+    font-family: sans-serif;
+    
+}
+
+main{
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-height: calc(100vh - 170px - 237px);
+}
+.tabla_news{
+    display:grid;
+    margin:auto;
+    grid-template-columns: 33% 33% 33% ;
+
+    
+}
+
+
+/* Tablas */
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse ;
+    
+}
+tr{
+    background-color: lightgrey;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0.8 );
+}
+td{
+    background-color: white;
+    cursor:pointer;
+    
+}
+
+
+
+img{
+    width: 250px;
+    height: 200px;
+}
+
+/* Mapa */
+
+article{
+    margin-top:80px;
+    font-family: sans-serif;
+}
+iframe{
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color:white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.footer_grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    align-items: center;
+}
+.tel_correo{
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nav_footer{
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.footer_icons{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+
+span a{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    border:1px solid white ;
+    text-decoration: none;
+    text-align: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 9px;
+    line-height: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+
+}
+
+.footer_nav{
+    text-align: center;
+    font-weight: 150;
+    font-size: 1.5rem;
+    font-family: 'Courier New';
+}
+
+.footer_title{
+    font-family: 'Courier New';
+}
+
+
+/* Centre */
+
+.Centre_titol{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    margin-left: 0;
+    background-color: #033076;
+}
+
+.Introduccio_Centre{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px ;
+    padding-right: 170px;
+}
+.contenedor_Centre{
+    display: flex;
+    grid-template-columns: 60% 30%;
+    
+}
+.subtitol{
+    margin-bottom: 50px;
+}
+
+
+/* Departaments */
+
+h3.Dept_title{
+    text-align: center;
+    padding: 15px;
+    background-color: #033076;
+}
+
+.tabla_Dept{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+table{
+    margin-bottom: 30px;
+}
+
+/*Secretaria*/
+.secretaria_title{
+    text-align: center;
+    padding:15px;
+    background-color: #033076;
+    
+}
+
+
+.article_secretaria{
+
+    font-family: sans-serif;
+    
+
+}
+.article_secretaria strong{
+    
+    padding: 5px;
+    background-color: #004e63;
+    color :white;
+    
+}
+
+
+/* Aviso */
+
+.frase_link{
+    padding:0%;
+}
+
+
